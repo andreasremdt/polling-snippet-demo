@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Can diet and exercise lower your risk of dementia? Rigorous clinical
+      trials aim to find out - Science Magazine
+    </title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Standalone polling snippet</h1>
+
+    <polling-widget title="How do you feel today?" id="poll-3">
+      <polling-widget-answer
+        >Brilliant! I have so much energy.</polling-widget-answer
+      >
+      <polling-widget-answer>Always can be worse.</polling-widget-answer>
+      <polling-widget-answer>Please, end my misery.</polling-widget-answer>
+
+      <p slot="finished">
+        Thank your for taking our quick poll! <b>{{ count }}</b> others provided
+        their opinion.
+      </p>
+    </polling-widget>
+
+    <script src="../dist/polling-widget.js" defer></script>
+  </body>
+</html>
